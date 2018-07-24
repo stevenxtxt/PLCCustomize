@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.bsh.dt.plccustomize.widget.CircleProgressView
+        android:id="@+id/cpv_progress"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        app:circleColor="#ffffff"
+        app:radius="50dp"
+        app:ringBgColor="#f5f3f3"
+        app:ringColor="#d50f09"
+        app:strokeWidth="10dp"/>
+
+
+</LinearLayout>

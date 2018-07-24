@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bsh.dt.plccustomize.activity.MainActivity"
+    android:orientation="vertical">
+
+    <com.bsh.dt.plccustomize.widget.HeaderLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:isBackShow="false"
+        app:title="@string/personalized">
+    </com.bsh.dt.plccustomize.widget.HeaderLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_text_one"
+            style="@style/AppText"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_text_two"
+            style="@style/AppText"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/img_home"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+        <Button
+            android:id="@+id/btn_scan"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:text="@string/scan_and_bind"
+            style="@style/AppText"
+            android:background="@drawable/button_bg"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

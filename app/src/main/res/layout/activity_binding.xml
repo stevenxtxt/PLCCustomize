@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.bsh.dt.plccustomize.widget.HeaderLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/personalized">
+
+    </com.bsh.dt.plccustomize.widget.HeaderLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_binding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+        <ImageView
+            android:id="@+id/iv_binding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/img_binding_circle"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/binding"
+            style="@style/AppText"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_binding_failed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/iv_binding_failed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_failed"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scan_failed"
+            style="@style/AppText"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/iv_binding_failed"
+            android:layout_centerHorizontal="true"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="64dp"
+            android:layout_centerHorizontal="true">
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_blank_gb"
+                android:text="@string/back"
+                style="@style/AppText"
+                android:textColor="@color/colorAccent"
+                android:layout_marginRight="16dp"/>
+            <Button
+                android:id="@+id/btn_rescan"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_bg"
+                android:text="Rescan"
+                style="@style/AppText"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

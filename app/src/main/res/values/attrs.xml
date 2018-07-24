@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressView">
+        <attr name="radius" format="dimension" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="circleColor" format="color" />
+        <attr name="ringColor" format="color" />
+        <attr name="ringBgColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="HeaderLayout">
+        <attr name="title" format="string" />
+        <attr name="isBackShow" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LeanImageView">
+        <attr name="imageDegree" format="dimension" />
+        <attr name="source" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LeanTextView">
+        <attr name="textDegree" format="dimension" />
+    </declare-styleable>
+</resources>

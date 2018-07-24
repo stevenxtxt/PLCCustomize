@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.bsh.dt.plccustomize.widget.HeaderLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/scene_selection"
+        app:isBackShow="true">
+
+    </com.bsh.dt.plccustomize.widget.HeaderLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_programs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="@string/next"
+        style="@style/AppText"
+        android:background="@drawable/button_bg_30"
+        android:textColor="#4dffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"/>
+
+</LinearLayout>

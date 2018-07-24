@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="personalized">个性化</string>
+    <string name="home_text_one">绑定该洗衣机之后</string>
+    <string name="home_text_two">即可定制洗衣程序</string>
+    <string name="scan_and_bind">扫描绑定</string>
+    <string name="binding">绑定中...</string>
+    <string name="scan_failed">扫描失败</string>
+    <string name="back">返回</string>
+    <string name="my_program">我的程序</string>
+    <string name="loading">加载中...</string>
+    <string name="reset">重设</string>
+    <string name="scene_selection">场景选择</string>
+    <string name="next">下一步</string>
+    <string name="symbol_selection">界面选择</string>
+    <string name="confirm_and_send">确认并发送</string>
+
+    <string name="tag_spring_summer">春夏</string>
+    <string name="tag_autumn_winter">秋冬</string>
+    <string name="tag_fabric_obsessed">面料控</string>
+    <string name="tag_wash_daily">每天洗</string>
+    <string name="tag_wash_weekly">每周洗</string>
+    <string name="tag_family_with_baby">家有宝宝</string>
+    <string name="tag_three_gen">三代同堂</string>
+    <string name="program_cotton">棉织物</string>
+    <string name="program_mix">混合</string>
+    <string name="program_syn">化纤</string>
+    <string name="program_chiffon">雪纺</string>
+    <string name="program_allergy">防过敏</string>
+    <string name="program_super">超快15‘</string>
+    <string name="program_down">羽绒服</string>
+    <string name="program_outdoor">冲锋衣</string>
+    <string name="program_deli">丝绸</string>
+    <string name="program_wool">羊毛</string>
+    <string name="program_shirts">衬衫</string>
+    <string name="program_active">活氧清新</string>
+    <string name="program_spin">单脱水</string>
+    <string name="program_jeans">牛仔</string>
+    <string name="program_bedsheets">床单</string>
+    <string name="program_baby">婴幼洗</string>
+    <string name="program_large">大件洗</string>
+    <string name="scanning">扫描</string>
+
+</resources>

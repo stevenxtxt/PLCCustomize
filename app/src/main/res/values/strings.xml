@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">PLCCustomize</string>
+
+    <string name="personalized">Personalized</string>
+    <string name="home_text_one">After binding the washing machine</string>
+    <string name="home_text_two">You can set up the washing program</string>
+    <string name="scan_and_bind">Scan and bind</string>
+    <string name="binding">Binding...</string>
+    <string name="scan_failed">Scan failed</string>
+    <string name="back">Back</string>
+    <string name="my_program">My program</string>
+    <string name="loading">Loading...</string>
+    <string name="reset">Reset</string>
+    <string name="scene_selection">Scene selection</string>
+    <string name="next">Next</string>
+    <string name="symbol_selection">Symbol selection</string>
+    <string name="confirm_and_send">Confirm and send</string>
+
+    <string name="tag_spring_summer">Spring&amp;Summer</string>
+    <string name="tag_autumn_winter">Autumn&amp;Winter</string>
+    <string name="tag_fabric_obsessed">Fabric obsessed</string>
+    <string name="tag_wash_daily">Wash daily</string>
+    <string name="tag_wash_weekly">Wash weekly</string>
+    <string name="tag_family_with_baby">Family with baby</string>
+    <string name="tag_three_gen">Three generations</string>
+    <string name="program_cotton">Cotton</string>
+    <string name="program_mix">Mix</string>
+    <string name="program_syn">Synthetics</string>
+    <string name="program_chiffon">Chiffon</string>
+    <string name="program_allergy">AllergyCare</string>
+    <string name="program_super">Super 15\'</string>
+    <string name="program_down">Down</string>
+    <string name="program_outdoor">Outdoor+</string>
+    <string name="program_deli">Delicates</string>
+    <string name="program_wool">Wool</string>
+    <string name="program_shirts">Shirts</string>
+    <string name="program_active">ActiveOxygen\nRefresh</string>
+    <string name="program_spin">Spin</string>
+    <string name="program_jeans">Jeans</string>
+    <string name="program_bedsheets">Bedsheets</string>
+    <string name="program_baby">Babycare</string>
+    <string name="program_large">Large items</string>
+    <string name="scanning">Scanning</string>
+
+</resources>

@@ -1,0 +1,38 @@
+{
+    "datetime": "20180517T152830",
+    "message": "success",
+    "status": 200,
+    "version": 1010,
+    "data": {
+        "profileid": "1",
+        "layouttype": "1",
+        "quantity": "5",
+        "programs": [
+            {
+                "programid": "1",
+                "name": "Outdoor",
+                "picture": ""
+            },
+            {
+                "programid": "2",
+                "name": "Mix",
+                "picture": ""
+            },
+            {
+                "programid": "3",
+                "name": "Cotton",
+                "picture": ""
+            },
+            {
+                "programid": "4",
+                "name": "Wool",
+                "picture": ""
+            },
+            {
+                "programid": "5",
+                "name": "Bedsheets",
+                "picture": ""
+            }
+        ]
+    }
+}

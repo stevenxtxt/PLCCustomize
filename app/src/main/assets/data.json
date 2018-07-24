@@ -1,0 +1,29 @@
+/* TFT PLC UI JSON file */
+{
+  "datetime":"20180517T152830",
+  "message":"success",
+  "status":200,
+  "version":1010,
+  "data":{
+    "profileid":"1",
+    "layouttype":"1",
+    "quantity":"3",
+    "programs":[
+      {
+        "programid":"1",
+        "name":"棉织物",
+        "picture":""
+      },
+      {
+        "programid":"2",
+        "name":"快洗",
+        "picture":""
+      },
+      {
+        "programid":"3",
+        "name":"混合",
+        "picture":""
+      }
+    ]
+  }
+}
